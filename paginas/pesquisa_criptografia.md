@@ -1,7 +1,3 @@
-Aqui está uma descrição da atividade que você pode apresentar aos seus alunos:
-
----
-
 **Atividade: Apresentações sobre Algoritmos e Protocolos de Criptografia**
 
 **Objetivo:** Explorar e compreender os principais algoritmos e protocolos de criptografia utilizados atualmente, abordando seus conceitos, funcionamento, aplicações práticas e desafios na implementação.
