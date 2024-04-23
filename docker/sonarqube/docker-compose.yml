@@ -1,0 +1,61 @@
+version: '3.8'
+services:
+  postgresql:
+    image: docker.io/bitnami/postgresql:16
+    volumes:
+      - 'postgresql_data:/bitnami/postgresql'
+    environment:
+      - ALLOW_EMPTY_PASSWORD=yes
+      - POSTGRESQL_USERNAME=bn_sonarqube
+      - POSTGRESQL_DATABASE=bitnami_sonarqube
+
+  sonarqube:
+    image: docker.io/bitnami/sonarqube:10
+    ports:
+      - '9000:9000'
+    volumes:
+      - 'sonarqube_data:/bitnami/sonarqube'
+    depends_on:
+      - postgresql
+    environment:
+      - ALLOW_EMPTY_PASSWORD=yes
+      - SONARQUBE_DATABASE_HOST=postgresql
+      - SONARQUBE_DATABASE_PORT_NUMBER=5432
+      - SONARQUBE_DATABASE_USER=bn_sonarqube
+      - SONARQUBE_DATABASE_NAME=bitnami_sonarqube
+
+  dvwa:
+    image: vulnerables/web-dvwa
+    ports:
+      - '8081:80'
+    depends_on:
+      - sonarqube
+    volumes:
+      - 'dvwa_data:/var/www/html' # Nome do volume onde o código-fonte é armazenado
+
+  juice-shop:
+    image: bkimminich/juice-shop
+    ports:
+      - '3000:3000'
+    volumes:
+      - 'dvwa_data:/var/www/html'
+
+  sonar-scanner:
+    image: sonarsource/sonar-scanner-cli
+    container_name: sonar-scanner
+    entrypoint: /bin/sh
+    command: [-c, "while true; do sleep 3600; done"]
+    depends_on:
+      - sonarqube
+    volumes:
+      - 'dvwa_data:/usr/src'
+    environment:
+      - SONAR_HOST_URL=http://sonarqube:9000
+
+volumes:
+  postgresql_data:
+    driver: local
+  sonarqube_data:
+    driver: local
+  dvwa_data:
+    driver: local # Definição do volume para persistir o código-fonte do DVWA
