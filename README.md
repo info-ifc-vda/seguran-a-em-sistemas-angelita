@@ -1,6 +1,5 @@
 # Segurança em Sistemas
 - [Atividade Vulnerabilidades de segurança](paginas/vulnerabilidades.md)
-- [Análise de Vulerabilidades de segurança](paginas/AnaliseVulnerabilidades.md)
 
 
 ## Sumário
@@ -12,7 +11,7 @@
   - Padrões e Conformidade da Indústria
   - Sistemas Criptográficos	
   - Vulnerabilidades e Exposições Comuns (CVE)
-  - Análise de Vulnerabilidades
+  - [Análise de Vulnerabilidades](paginas/AnaliseVulnerabilidades.md)
   - Segurança Ofensiva
     - [Segurança Ofensiva e Hacking](paginas/HackingEtico.md)
     - [Testes de Intrusão](paginas/TestesdeIntrusão.md)

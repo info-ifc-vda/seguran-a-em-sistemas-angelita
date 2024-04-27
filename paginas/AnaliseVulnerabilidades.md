@@ -121,3 +121,6 @@ Esta atividade tem como objetivo proporcionar aos alunos experiência prática n
 
 ## Prática Guiada: 
 [Acesse a págia na prática guiada](../labs/lab-sonarqube.md)
+
+## Atividade
+[Atividade análise de vulnerabilidades](vulnerabilidades.md)
