@@ -29,3 +29,4 @@ Ao comunicar os resultados de um teste de intrusão, é fundamental manter uma p
 ## Leitura Recomendada
 - [Relatórios disponíveis para análise](https://pentestreports.com/)
 - [Guia para construção de relatórios](https://www.browserstack.com/guide/penetration-testing-report-guide)
+- [Exemplo de Relatório Teste de intrusão em aplicação WEB](https://www.verifact.com.br/wp-content/uploads/2022/07/WEB_Report_Penetration_Test_Verifact_Gray_Box_Publicacao.pdf)
