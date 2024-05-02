@@ -14,3 +14,5 @@
     - [Segurança Ofensiva e Hacking](paginas/HackingEtico.md)
     - [Testes de Intrusão](paginas/TestesdeIntrusão.md)
     - [Relatórios e Documentação](paginas/RelatoriosDocumentacao.md)
+  - [Segurança Defensiva](paginas/SegurançaDefensiva.md)
+  - 
