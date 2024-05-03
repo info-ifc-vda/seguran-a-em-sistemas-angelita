@@ -133,6 +133,8 @@ Essas metodologias fornecem estruturas sólidas que orientam as organizações a
 
 ## Leitura recomendada
 - [O que é teste de penetração?](https://www.ibm.com/br-pt/topics/penetration-testing)
+- [Tipos de pentest: conheça os principais e como são feitos](https://www.tempest.com.br/blog/tipos-de-pentest/) (Tempest Trends)
+- [Pentest: saibe tudo sobre o teste de penetração](https://www.tempest.com.br/blog/pentest/) (Tempest Trends)
 - [OWASP Penetration Testing Methodologies
 ](https://owasp.org/www-project-web-security-testing-guide/latest/3-The_OWASP_Testing_Framework/1-Penetration_Testing_Methodologies)
 - [PTES](http://www.pentest-standard.org)

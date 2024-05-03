@@ -16,3 +16,5 @@
     - [Relatórios e Documentação](paginas/RelatoriosDocumentacao.md)
   - [Segurança Defensiva](paginas/SegurançaDefensiva.md)
     - [Firewall](paginas/Firewall.md)
+    - [Sistemas de Detecção e Intrusão e Sistemas de Prevenção de Intrusão](paginas/IDS_IPS.md)
+    - [Segurança de EndPoints](paginas/SegurancaDesktop.md)
