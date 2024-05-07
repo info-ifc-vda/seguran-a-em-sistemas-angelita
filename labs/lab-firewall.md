@@ -19,8 +19,6 @@ A Figura abaixo  representa a arquitetura da rede proposta:
    - Atribua ao contêiner Caiman um IP estático de `192.0.3.1/24` para a interface conectada a esta subrede.
    - Configure a estação de trabalho para usar o IP `192.0.3.5/24` e utilizar Caiman como gateway.
 
-Aqui está uma descrição detalhada do conjunto de regras de firewall que os estudantes deverão configurar nos contêineres Caliandra e Caiman para gerenciar o tráfego de rede de forma segura e eficaz.
-
 ## Conjunto de Regras de Firewall 
 ## Regras para Caliandra (Firewall Externo)
 
@@ -29,13 +27,11 @@ Aqui está uma descrição detalhada do conjunto de regras de firewall que os es
    - Bloquear todo o tráfego de entrada da Internet que não seja uma resposta a solicitações iniciadas internamente.
 
 2. **Regras Específicas**:
-   - Permitir conexões HTTP e HTTPS de entrada da RedePan para a Internet (portas 80 e 443).
-   - Permitir conexões DNS de entrada e saída (porta 53).
-   - Permitir tráfego SMTP, IMAP e POP para e-mail (portas 25, 587, 110, 995, 143, 993).
-
-3. **NAT e PAT**:
-   - Configurar NAT para traduzir os endereços IP internos para um endereço IP público ao acessar a Internet.
-   - Configurar PAT para permitir múltiplas conexões internas usando um único endereço IP público.
+   - Permitir conexões HTTP e HTTPS de **entrada** da RedePan para a Internet (portas 80 e 443).
+   - Permitir conexões DNS de **entrada** e saída (porta 53).
+   - Permitir tráfego SMTP e IMAP de **entrada** para e-mail (portas 465, 587,  995, 143, 993).
+   - Restringir o acesso ao banco de dados. Somente o servidor de Aplicações pode acessar o banco de dados postgresql (porta 5432)
+   - Restringir o acesso ao Servidor de Aplicações à `SubredeLocal`
 
 4. **Logging**:
    - Registrar tentativas de conexões bloqueadas para análise e monitoramento de segurança.
@@ -43,20 +39,18 @@ Aqui está uma descrição detalhada do conjunto de regras de firewall que os es
 ## Regras para Caiman (Firewall da Subrede Interna)
 
 1. **Regras Básicas**:
-   - Permitir todo o tráfego entre a estação de trabalho e o contêiner Caiman.
+   - Permitir todo o tráfego entre a rede local e a DMZ.
    - Bloquear qualquer acesso direto da Internet para a estação de trabalho.
 
 2. **Regras Específicas**:
    - Permitir conexões de saída da estação de trabalho para a Internet para HTTP, HTTPS (portas 80 e 443).
-   - Permitir tráfego de saída para serviços de e-mail (SMTP, IMAP, POP nas portas 25, 587, 110, 995, 143, 993).
-   - Restringir o acesso ao servidor de banco de dados apenas à DMZ (porta 5432).
+   - Permitir tráfego de saída para serviços de e-mail (SMTP, IMAP, POP nas portas 465, 587, 995, 143, 993).
+   - Restringir o acesso ao banco de dados. Somente o servidor de Aplicações pode acessar o banco de dados postgresql (porta 5432).
+   - Restringir o acesso às portas 80 e 443 da `SubredeLocal`.
+   - Restringir o acesso ao Servidor de Aplicações à `SubredeLocal`
 
 3. **Redirecionamento e Encaminhamento**:
    - Configurar encaminhamento de pacotes entre as interfaces de rede para permitir comunicação adequada entre a SubredeLocal e a RedePan, sob supervisão de regras de segurança.
-
-4. **Segurança Adicional**:
-   - Implementar regras para serviços de autenticação como LDAP e Kerberos (portas 389, 636, 88, 464).
-   - Estabelecer restrições de acesso ao servidor de arquivos usando SMB (portas 137-139, 445).
 
 ## Implementação
 - Utilize um Dockerfile para configurar cada contêiner com as dependências necessárias e as configurações de rede.
