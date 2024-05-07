@@ -16,7 +16,7 @@ A Figura abaixo  representa a arquitetura da rede proposta:
    
 2. **Subrede Interna (SubredeLocal)**:
    - Crie uma segunda rede Docker bridge chamada `SubredeLocal` com o endereço `192.0.3.0/24`.
-   - Atribua ao contêiner Caiman um IP estático de `192.0.3.1/24` para a interface conectada a esta subrede.
+   - Atribua ao contêiner Caiman um IP estático de `192.0.3.2/24` para a interface conectada a esta subrede.
    - Configure a estação de trabalho para usar o IP `192.0.3.5/24` e utilizar Caiman como gateway.
 
 ## Conjunto de Regras de Firewall 
