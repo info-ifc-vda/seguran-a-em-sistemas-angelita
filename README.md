@@ -18,3 +18,4 @@
     - [Firewall](paginas/Firewall.md)
     - [Sistemas de Detecção e Intrusão e Sistemas de Prevenção de Intrusão](paginas/IDS_IPS.md)
     - [Segurança de EndPoints](paginas/SegurancaDesktop.md)
+    - [Controle de Acesso e Autenticação](paginas/ControleAcessoAutenticacao.md)
