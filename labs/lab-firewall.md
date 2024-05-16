@@ -68,3 +68,6 @@ A Figura abaixo  representa a arquitetura da rede proposta:
 - Verifique a configuração IP de cada contêiner.
 - Teste as rotas de pacotes e as regras de firewall implementadas.
 - Avalie o entendimento dos alunos sobre o encaminhamento de pacotes e a aplicação de regras de firewall em um ambiente de contêiner.
+
+## Entregáveis
+- Você deverá entregar um PDF contendo as regras de firewall. 

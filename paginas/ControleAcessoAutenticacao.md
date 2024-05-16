@@ -254,6 +254,7 @@ O Terminal Access Controller Access-Control System (TACACS) é um protocolo de s
 Em resumo, o TACACS é um protocolo AAA robusto e altamente seguro, especialmente em sua versão TACACS+, oferecendo criptografia e controle granular sobre acesso a recursos críticos de rede.
 
 ## Leitura Recomendada
+- [chmod](https://guialinux.uniriotec.br/chmod/)
 - [File Permissions and Sharing Files (Universidade de Cambridge)](https://www.maths.cam.ac.uk/computing/linux/unixinfo/perms)
 - [Technology Tips: chmod overview](https://www.washington.edu/doit/technology-tips-chmod-overview)
 - [How to change directory permissions in Linux with chmod](https://www.pluralsight.com/blog/it-ops/linux-file-permissions)
