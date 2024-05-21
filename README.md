@@ -19,3 +19,4 @@
     - [Sistemas de Detecção e Intrusão e Sistemas de Prevenção de Intrusão](paginas/IDS_IPS.md)
     - [Segurança de EndPoints](paginas/SegurancaDesktop.md)
     - [Controle de Acesso e Autenticação](paginas/ControleAcessoAutenticacao.md)
+    - [Resposta a Incidentes](paginas/RespostaIncidentes.md)
