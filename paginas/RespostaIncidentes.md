@@ -6,6 +6,10 @@
    - [Etapas e estruturas de resposta a incidentes para SANS e NIST](https://minutodaseguranca.blog.br/etapas-e-estruturas-de-resposta-a-incidentes-para-sans-e-nist/)
    -  [The Practice of Network Security Monitoring.pdf](https://github.com/kevanpng/fastIR-logstash-flask-example/blob/master/The%20Practice%20of%20Network%20Security%20Monitoring.pdf)
    - [Incident_Response_Computer_Forensics_3rd_Edition](http://cisweb.bristolcc.edu/~ik/Download/Forensic/Incident_Response_Computer_Forensics_3rd_Edition.pdf)
+  - Exemplos de políticas comuns:
+     - https://asset.stonex.com/wp-content/uploads/2021/11/pol-024_03-monitoramento-da-seguranca-da-informacao.pdf
+     - https://www.ifto.edu.br/acesso-a-informacao/seguranca-da-informacao/documentos-lgpd-ifto/PGISI.pdf
+     - https://www.trt4.jus.br/portais/governanca/processo-incidente-seguranca
 
 
 ### Caso de Uso: Incidente de Ransomware em uma Empresa de E-commerce
