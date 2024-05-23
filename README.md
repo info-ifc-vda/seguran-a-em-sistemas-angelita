@@ -20,3 +20,5 @@
     - [Segurança de EndPoints](paginas/SegurancaDesktop.md)
     - [Controle de Acesso e Autenticação](paginas/ControleAcessoAutenticacao.md)
     - [Resposta a Incidentes](paginas/RespostaIncidentes.md)
+    - [Auditoria](paginas/auditoria.md)
+    - [Análise de Logs](paginas/logs.md)
