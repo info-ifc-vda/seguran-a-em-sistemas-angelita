@@ -2,7 +2,7 @@
 
 ## Sumário
 - Fundamentos de segurança
-    - [Conceitos fundamentais](paginas/cid.md)
+    - [Conceitos fundamentais](paginas/conceitos_fundamentais.md)
   - Políticas de Segurança
   - Análise de riscos
   - Modelagem de Ameaças
@@ -22,3 +22,6 @@
     - [Resposta a Incidentes](paginas/RespostaIncidentes.md)
     - [Auditoria](paginas/auditoria.md)
     - [Análise de Logs](paginas/logs.md)
+
+
+[Glossário](paginas/glossario.md)
