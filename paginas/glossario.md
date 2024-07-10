@@ -18,7 +18,7 @@
 - **Disponibilidade**
   - **Definição:** Garantia de que as informações e recursos estejam disponíveis aos usuários autorizados quando necessário.
   - **Exemplo:** Sistemas de backup, redundância de dados e planos de recuperação de desastres.
--**Confidencialidade**
+- **Confidencialidade**
     - **Definição:** Garantia de que a informação esteja acessível apenas a indivíduos autorizados e protegida contra acessos não autorizados.
     - **Exemplo:** Criptografia de dados e controles de acesso.
 - **Conformidade**
