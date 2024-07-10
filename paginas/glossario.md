@@ -1,0 +1,50 @@
+### Glossário de Terminologias Importantes em Segurança da Informação
+
+- **Adversário**
+  - **Definição:** Qualquer entidade que representa uma ameaça potencial para os sistemas de informação. Pode ser um hacker, um insider malicioso, ou qualquer indivíduo ou grupo que tenta comprometer a segurança de um sistema.
+  - **Exemplo:** Hackers tentando acessar sistemas corporativos.
+- **Ameaça**
+  - **Definição:** Qualquer circunstância ou evento que tenha o potencial de causar danos aos sistemas de informação ou dados.
+  - **Exemplo:** Ataques de malware, desastres naturais, ou erros humanos.
+- **Ataque**
+  - **Definição:** Qualquer tentativa deliberada de comprometer a segurança de um sistema de informação, explorando vulnerabilidades.
+  - **Exemplo:** Ataques de phishing, negação de serviço (DoS), e injeções de SQL.
+- **Ativos**
+  - **Definição:** Recursos valiosos que precisam ser protegidos, incluindo dados, sistemas, hardware, software e infraestrutura.
+  - **Exemplo:** Bancos de dados com informações de clientes, servidores de rede, e equipamentos de TI.
+- **Autenticidade**
+  - **Definição:** A verificação da identidade dos usuários, sistemas e dispositivos, garantindo que as partes envolvidas são genuínas.
+  - **Exemplo:** Uso de senhas, biometria ou certificados digitais para autenticação.
+- **Disponibilidade**
+  - **Definição:** Garantia de que as informações e recursos estejam disponíveis aos usuários autorizados quando necessário.
+  - **Exemplo:** Sistemas de backup, redundância de dados e planos de recuperação de desastres.
+-**Confidencialidade**
+    - **Definição:** Garantia de que a informação esteja acessível apenas a indivíduos autorizados e protegida contra acessos não autorizados.
+    - **Exemplo:** Criptografia de dados e controles de acesso.
+- **Conformidade**
+  - **Definição:** Garantia de que todas as práticas e operações de segurança estejam de acordo com leis, regulamentações e políticas aplicáveis.
+  - **Exemplo:** Conformidade com o LGPD (Lei Geral de Proteção de Dados).
+- **Contramedida**
+  - **Definição:** Qualquer ação, dispositivo, procedimento ou técnica que reduz uma ameaça, uma vulnerabilidade ou um risco.
+  - **Exemplo:** Firewalls, software antivírus, e políticas de senha fortes.
+- **Integridade**
+  - **Definição:** Garantia de que as informações sejam precisas e não sejam alteradas de forma inadequada ou não autorizada.
+  - **Exemplo:** Hashes e somas de verificação para detectar alterações não autorizadas.
+- **Irretratabilidade ou Não-Repúdio**
+  - **Definição:** Garantia de que uma pessoa ou entidade não pode negar a validade de suas próprias ações ou compromissos.
+  - **Exemplo:** Assinaturas digitais que vinculam eletronicamente um remetente a um documento ou mensagem.
+- **Política de Segurança**
+  - **Definição:** Conjunto de diretrizes e práticas definidas para proteger os ativos de informação da organização.
+  - **Exemplo:** Políticas de controle de acesso, uso de senhas e resposta a incidentes.
+- **Risco**
+  - **Definição:** Probabilidade de ocorrência de uma ameaça explorando uma vulnerabilidade e causando danos.
+  - **Exemplo:** Risco de vazamento de dados devido a uma vulnerabilidade no sistema.
+- **Responsabilização**
+  - **Definição:** Assegura que os indivíduos e sistemas possam ser responsabilizados por suas ações e acessos.
+  - **Exemplo:** Logs de auditoria e monitoramento contínuo.
+- **Segurança da Informação**
+  - **Definição:** Práticas e procedimentos destinados a proteger os sistemas de informação contra acesso não autorizado, uso, divulgação, interrupção, modificação ou destruição.
+  - **Exemplo:** Implementação de controles de acesso, criptografia e políticas de segurança.
+- **Vulnerabilidade**
+  - **Definição:** Fraqueza ou falha em um sistema, rede ou processo que pode ser explorada por uma ameaça para causar danos.
+  - **Exemplo:** Falhas de software, configurações de rede inadequadas e políticas de segurança fracas.
