@@ -3,7 +3,7 @@
 ## Sumário
 - Fundamentos de segurança
     - [Conceitos fundamentais](paginas/conceitos_fundamentais.md)
-  - Políticas de Segurança
+  - [Políticas de Segurança](paginas/PoliticaSeguranca.md)
   - Análise de riscos
   - Modelagem de Ameaças
   - Padrões e Conformidade da Indústria
