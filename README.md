@@ -6,7 +6,7 @@
   - [Políticas de Segurança](paginas/PoliticaSeguranca.md)
   - Análise de riscos
     - [MITRE ATT&CK Framework](paginas/MitreAttackFramework.md)
-  - Modelagem de Ameaças
+  - [Modelagem de Ameaças](https://minutodaseguranca.blog.br/o-que-e-threat-modeling/)
   - Padrões e Conformidade da Indústria
   - Sistemas Criptográficos	
   - Vulnerabilidades e Exposições Comuns (CVE)
