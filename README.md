@@ -5,6 +5,7 @@
     - [Conceitos fundamentais](paginas/conceitos_fundamentais.md)
   - [Políticas de Segurança](paginas/PoliticaSeguranca.md)
   - Análise de riscos
+    - [MITRE ATT&CK Framework](paginas/MitreAttackFramework.md)
   - Modelagem de Ameaças
   - Padrões e Conformidade da Indústria
   - Sistemas Criptográficos	
