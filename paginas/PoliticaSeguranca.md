@@ -88,56 +88,56 @@ DOCUMENTOS Disponíveis em Português. In: Publicações cert.br. [S. l.]: NIC B
 
 
 ---
-**Estudo de Caso: AngelCorp - Introdução a Políticas de Segurança da Informação**
+# Estudo de Caso: AngelCorp - Introdução a Políticas de Segurança da Informação
 
-**Conceitos e Pontos a Serem Abordados:**
+## Conceitos e Pontos a Serem Abordados:
 
-**1. Importância das Políticas de Segurança:**
+### 1. Importância das Políticas de Segurança:
    - **Conceito:** Diretrizes formais para proteger informações e ativos.
    - **Ponto-Chave:** Políticas definem comportamentos e práticas seguras esperadas pelos funcionários e outras partes interessadas.
 
-**2. Escopo e Objetivos das Políticas:**
+### 2. Escopo e Objetivos das Políticas:
    - **Conceito:** Define o alcance e os propósitos das políticas.
    - **Ponto-Chave:** No caso da AngelCorp, o escopo pode incluir proteção de dados sensíveis, segurança de rede e uso de dispositivos móveis.
 
-**3. Responsabilidades e Autoridades:**
+### 3. Responsabilidades e Autoridades:
    - **Conceito:** Especifica quem é responsável pela implementação e manutenção das políticas.
    - **Ponto-Chave:** Na AngelCorp, isso pode envolver a equipe de TI, gerentes de departamento e a alta direção.
 
-**4. Classificação e Controle de Ativos:**
+### 4. Classificação e Controle de Ativos:
    - **Conceito:** Identificação e classificação de ativos de acordo com sua importância e sensibilidade.
    - **Ponto-Chave:** AngelCorp deve classificar dados proprietários de software e informações financeiras como ativos críticos.
 
-**5. Diretrizes para Uso de Sistemas e Redes:**
+### 5. Diretrizes para Uso de Sistemas e Redes:
    - **Conceito:** Regras para o uso adequado de sistemas de TI e redes.
    - **Ponto-Chave:** Políticas de uso aceitável para garantir que os funcionários da AngelCorp usem recursos de TI de maneira segura e responsável.
 
-**6. Procedimentos de Resposta a Incidentes:**
+### 6. Procedimentos de Resposta a Incidentes:
    - **Conceito:** Plano de ação para lidar com incidentes de segurança.
    - **Ponto-Chave:** AngelCorp precisa ter um processo claro para responder a tentativas de phishing e ataques de ransomware.
 
-**7. Desafios na Implementação de Políticas:**
+### 7. Desafios na Implementação de Políticas:
    - **Conceito:** Dificuldades enfrentadas ao colocar políticas em prática.
    - **Ponto-Chave:** Desafios podem incluir resistência dos funcionários, manter políticas atualizadas e integrar políticas na cultura da empresa.
 
-**8. Melhores Práticas para Implementação:**
+### 8. Melhores Práticas para Implementação:
    - **Conceito:** Estratégias para implementar políticas de forma eficaz.
    - **Ponto-Chave:** Comunicação clara, treinamento contínuo e envolvimento da liderança são cruciais para o sucesso das políticas de segurança da AngelCorp.
 
 ---
 ## Política de Segurança da Informação para Uso de Dispositivos Móveis na AngelCorp
 
-**1. Objetivo:**
+### 1. Objetivo:
    - Esta política visa estabelecer diretrizes para o uso seguro de dispositivos móveis (smartphones, tablets, laptops) por funcionários da AngelCorp, a fim de proteger as informações corporativas e os ativos de TI da empresa.
 
-**2. Escopo:**
+### 2. Escopo:
    - Esta política aplica-se a todos os funcionários, contratados e terceiros que utilizam dispositivos móveis para acessar redes, sistemas ou dados da AngelCorp.
 
-**3. Responsabilidades:**
+### 3. Responsabilidades:
    - O departamento de TI é responsável por implementar e manter as medidas de segurança relacionadas aos dispositivos móveis.
    - Os funcionários devem cumprir esta política e reportar quaisquer incidentes de segurança envolvendo dispositivos móveis ao departamento de TI.
 
-**4. Diretrizes para Uso de Dispositivos Móveis:**
+### 4. Diretrizes para Uso de Dispositivos Móveis:
    - **Segurança de Acesso:** Os dispositivos devem ser protegidos por senhas fortes, autenticação biométrica ou mecanismos de autenticação multifator.
    - **Criptografia:** Todos os dados sensíveis armazenados ou transmitidos por dispositivos móveis devem ser criptografados.
    - **Atualizações de Segurança:** Os dispositivos devem ser mantidos atualizados com as últimas versões de software e patches de segurança.
@@ -145,13 +145,13 @@ DOCUMENTOS Disponíveis em Português. In: Publicações cert.br. [S. l.]: NIC B
    - **Conexão Segura:** O acesso remoto à rede da empresa deve ser feito através de uma conexão VPN segura.
    - **Perda ou Roubo:** Em caso de perda ou roubo de um dispositivo, o incidente deve ser reportado imediatamente ao departamento de TI para que medidas de segurança, como limpeza remota dos dados, possam ser tomadas.
 
-**5. Conformidade e Penalidades:**
+### 5. Conformidade e Penalidades:
    - O descumprimento desta política pode resultar em ações disciplinares, incluindo a suspensão do acesso a recursos de TI e, em casos graves, a rescisão do contrato de trabalho.
 
-**6. Revisão e Atualização:**
+### 6. Revisão e Atualização:
    - Esta política será revisada anualmente ou sempre que houver mudanças significativas no ambiente de TI ou nos requisitos de segurança da informação da AngelCorp.
 
-**Aprovação:**
+### Aprovação:
    - Esta política entra em vigor na data de sua aprovação pela direção da AngelCorp.
 
 *Nota: Este é um exemplo simplificado de uma política de segurança para uso de dispositivos móveis. A política real da AngelCorp deve ser mais detalhada e adaptada às necessidades específicas da empresa.*
