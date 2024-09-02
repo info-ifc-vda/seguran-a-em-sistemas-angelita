@@ -85,3 +85,99 @@ ABNT – Associação Brasileira de Normas Técnicas. ABNT NBR ISO/IEC 27001 –
 ABNT – Associação Brasileira de Normas Técnicas. ABNT NBR ISO/IEC ISO 27002 - Segurança da informação, segurança cibernética e proteção à privacidade - Controles de segurança da informação. ABNT, 2022.
 
 DOCUMENTOS Disponíveis em Português. In: Publicações cert.br. [S. l.]: NIC BR Security Office (NBSO), 2022. Disponível em: https://www.cert.br/docs/.
+
+
+---
+**Estudo de Caso: AngelCorp - Introdução a Políticas de Segurança da Informação**
+
+**Conceitos e Pontos a Serem Abordados:**
+
+**1. Importância das Políticas de Segurança:**
+   - **Conceito:** Diretrizes formais para proteger informações e ativos.
+   - **Ponto-Chave:** Políticas definem comportamentos e práticas seguras esperadas pelos funcionários e outras partes interessadas.
+
+**2. Escopo e Objetivos das Políticas:**
+   - **Conceito:** Define o alcance e os propósitos das políticas.
+   - **Ponto-Chave:** No caso da AngelCorp, o escopo pode incluir proteção de dados sensíveis, segurança de rede e uso de dispositivos móveis.
+
+**3. Responsabilidades e Autoridades:**
+   - **Conceito:** Especifica quem é responsável pela implementação e manutenção das políticas.
+   - **Ponto-Chave:** Na AngelCorp, isso pode envolver a equipe de TI, gerentes de departamento e a alta direção.
+
+**4. Classificação e Controle de Ativos:**
+   - **Conceito:** Identificação e classificação de ativos de acordo com sua importância e sensibilidade.
+   - **Ponto-Chave:** AngelCorp deve classificar dados proprietários de software e informações financeiras como ativos críticos.
+
+**5. Diretrizes para Uso de Sistemas e Redes:**
+   - **Conceito:** Regras para o uso adequado de sistemas de TI e redes.
+   - **Ponto-Chave:** Políticas de uso aceitável para garantir que os funcionários da AngelCorp usem recursos de TI de maneira segura e responsável.
+
+**6. Procedimentos de Resposta a Incidentes:**
+   - **Conceito:** Plano de ação para lidar com incidentes de segurança.
+   - **Ponto-Chave:** AngelCorp precisa ter um processo claro para responder a tentativas de phishing e ataques de ransomware.
+
+**7. Desafios na Implementação de Políticas:**
+   - **Conceito:** Dificuldades enfrentadas ao colocar políticas em prática.
+   - **Ponto-Chave:** Desafios podem incluir resistência dos funcionários, manter políticas atualizadas e integrar políticas na cultura da empresa.
+
+**8. Melhores Práticas para Implementação:**
+   - **Conceito:** Estratégias para implementar políticas de forma eficaz.
+   - **Ponto-Chave:** Comunicação clara, treinamento contínuo e envolvimento da liderança são cruciais para o sucesso das políticas de segurança da AngelCorp.
+
+---
+## Política de Segurança da Informação para Uso de Dispositivos Móveis na AngelCorp
+
+**1. Objetivo:**
+   - Esta política visa estabelecer diretrizes para o uso seguro de dispositivos móveis (smartphones, tablets, laptops) por funcionários da AngelCorp, a fim de proteger as informações corporativas e os ativos de TI da empresa.
+
+**2. Escopo:**
+   - Esta política aplica-se a todos os funcionários, contratados e terceiros que utilizam dispositivos móveis para acessar redes, sistemas ou dados da AngelCorp.
+
+**3. Responsabilidades:**
+   - O departamento de TI é responsável por implementar e manter as medidas de segurança relacionadas aos dispositivos móveis.
+   - Os funcionários devem cumprir esta política e reportar quaisquer incidentes de segurança envolvendo dispositivos móveis ao departamento de TI.
+
+**4. Diretrizes para Uso de Dispositivos Móveis:**
+   - **Segurança de Acesso:** Os dispositivos devem ser protegidos por senhas fortes, autenticação biométrica ou mecanismos de autenticação multifator.
+   - **Criptografia:** Todos os dados sensíveis armazenados ou transmitidos por dispositivos móveis devem ser criptografados.
+   - **Atualizações de Segurança:** Os dispositivos devem ser mantidos atualizados com as últimas versões de software e patches de segurança.
+   - **Aplicações Aprovadas:** Apenas aplicativos aprovados pelo departamento de TI podem ser instalados nos dispositivos.
+   - **Conexão Segura:** O acesso remoto à rede da empresa deve ser feito através de uma conexão VPN segura.
+   - **Perda ou Roubo:** Em caso de perda ou roubo de um dispositivo, o incidente deve ser reportado imediatamente ao departamento de TI para que medidas de segurança, como limpeza remota dos dados, possam ser tomadas.
+
+**5. Conformidade e Penalidades:**
+   - O descumprimento desta política pode resultar em ações disciplinares, incluindo a suspensão do acesso a recursos de TI e, em casos graves, a rescisão do contrato de trabalho.
+
+**6. Revisão e Atualização:**
+   - Esta política será revisada anualmente ou sempre que houver mudanças significativas no ambiente de TI ou nos requisitos de segurança da informação da AngelCorp.
+
+**Aprovação:**
+   - Esta política entra em vigor na data de sua aprovação pela direção da AngelCorp.
+
+*Nota: Este é um exemplo simplificado de uma política de segurança para uso de dispositivos móveis. A política real da AngelCorp deve ser mais detalhada e adaptada às necessidades específicas da empresa.*
+
+---
+Exemplos reais de políticas de segurança de organizações conhecidas podem ser encontrados em diversas fontes, incluindo:
+
+1. **Websites Oficiais das Organizações:**
+   - Algumas organizações publicam suas políticas de segurança ou resumos delas em seus sites oficiais, especialmente se forem empresas de tecnologia ou instituições governamentais. Procure na seção de "Segurança" ou "Governança" nos sites dessas organizações.
+
+2. **Relatórios Anuais e Documentos de Governança Corporativa:**
+   - Algumas empresas incluem informações sobre suas políticas de segurança em relatórios anuais ou documentos relacionados à governança corporativa, que podem ser encontrados em seus sites.
+
+3. **Repositórios Acadêmicos e de Pesquisa:**
+   - Plataformas como Google Scholar, ResearchGate e Academia.edu podem conter estudos de caso, artigos e pesquisas que discutem políticas de segurança de organizações específicas.
+
+4. **Documentos de Conformidade e Certificação:**
+   - Organizações que aderem a padrões de segurança como ISO/IEC 27001, NIST ou GDPR muitas vezes disponibilizam informações sobre suas políticas de segurança como parte de seus documentos de conformidade e certificação.
+
+5. **Fóruns e Comunidades Profissionais:**
+   - Fóruns online e comunidades profissionais, como o LinkedIn, podem ter discussões ou compartilhamento de políticas de segurança por membros que trabalham em organizações conhecidas.
+
+6. **Publicações e Blogs de Segurança da Informação:**
+   - Sites especializados em segurança da informação, como o SANS Institute, CSO Online e Infosecurity Magazine, frequentemente publicam análises e exemplos de políticas de segurança.
+
+7. **Bibliotecas de Recursos de Segurança:**
+   - Algumas organizações e associações profissionais, como a ISACA e a (ISC)², oferecem bibliotecas de recursos que podem incluir exemplos de políticas de segurança.
+
+Ao procurar exemplos reais de políticas de segurança, é importante verificar a autenticidade e a atualidade das informações. Além disso, tenha em mente que as políticas de segurança são frequentemente adaptadas às necessidades específicas de cada organização, portanto, elas podem variar significativamente de uma para outra.
