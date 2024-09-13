@@ -73,8 +73,6 @@ Realizar inspeções de segurança ou testes de penetração sem autorização p
 ## Dicas 
 - Podcast [Segurança Legal](https://www.segurancalegal.com/)
 
-Aqui está uma versão simplificada da atividade que permite ao aluno escolher uma aplicação vulnerável para análise:
-
 ## Atividade Prática Simplificada: Análise de Vulnerabilidades com SonarQube
 
 ### Objetivo
