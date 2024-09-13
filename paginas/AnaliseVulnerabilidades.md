@@ -73,51 +73,35 @@ Realizar inspeções de segurança ou testes de penetração sem autorização p
 ## Dicas 
 - Podcast [Segurança Legal](https://www.segurancalegal.com/)
 
-## Atividade Prática
-### Atividade Prática: Análise de Vulnerabilidades com SonarQube
+Aqui está uma versão simplificada da atividade que permite ao aluno escolher uma aplicação vulnerável para análise:
 
-#### Objetivo
-Esta atividade tem como objetivo proporcionar aos alunos experiência prática na utilização do SonarQube para realizar análises de segurança em aplicações web vulneráveis. A prática será dividida em duas partes: uma sessão guiada pelo professor utilizando o DVWA (Damn Vulnerable Web Application) e uma atividade independente onde os alunos realizarão análises no WebGoat, OWASP Juice Shop e bWAPP, entregando um relatório detalhado sobre suas descobertas.
+## Atividade Prática Simplificada: Análise de Vulnerabilidades com SonarQube
 
-#### Parte 1: Prática Guiada com DVWA
+### Objetivo
+O objetivo desta atividade é proporcionar experiência prática no uso do SonarQube para identificar vulnerabilidades em uma aplicação web vulnerável de sua escolha.
 
-- **Duração**: 1 hora
-- **Descrição**: O professor guiará os alunos através do processo de instalação do DVWA, configuração do SonarQube e execução de uma análise inicial. Esta sessão incluirá uma demonstração de como configurar o SonarQube para analisar o código PHP do DVWA e como interpretar os resultados da análise.
-- **Foco**: Introdução ao uso do SonarQube e familiarização com a interface e relatórios.
+### Instruções
 
+1. **Escolha uma das seguintes aplicações web vulneráveis**:
+   - **WebGoat** (Java)
+   - **OWASP Juice Shop** (JavaScript)
+   - **bWAPP** (PHP)
 
-#### Parte 2: Análise Independente pelo Aluno
+2. **Configuração**:
+   - Instale ou acesse a versão online da aplicação escolhida.
+   - Configure o SonarQube para realizar a análise de segurança no código da aplicação.
 
-- **Duração**: Atividade para ser completada em uma semana.
-- **Descrição**: Os alunos deverão realizar análises de segurança em uma das seguintes aplicações web vulneráveis:
-  1. **WebGoat**: Uma aplicação Java projetada para ensinar questões de segurança web.
-  2. **OWASP Juice Shop**: Uma aplicação moderna de e-commerce construída com JavaScript que contém várias vulnerabilidades de segurança.
-  3. **bWAPP**: Uma aplicação web PHP que contém várias vulnerabilidades de segurança.
+3. **Execução da Análise**:
+   - Execute a análise de segurança com o SonarQube na aplicação escolhida.
+   - Verifique os resultados e identifique as vulnerabilidades reportadas.
 
-- **Passo a Passo**:
-  1. **Instalação e Configuração**:
-     - Instale localmente ou acesse versões online do WebGoat, OWASP Juice Shop e bWAPP.
-     - Configure cada aplicação para ser acessível para análise pelo SonarQube. Isso pode envolver a configuração de proxies ou ajustes nas configurações de rede.
-  
-  2. **Execução de Análise com SonarQube**:
-     - Conecte o SonarQube a cada uma das aplicações configuradas.
-     - Execute uma análise completa em cada aplicação. Certifique-se de configurar o SonarQube para capturar os tipos de arquivos e linguagens de programação relevantes para cada aplicação.
-
-  3. **Análise de Resultados**:
-     - Revise os resultados da análise para cada aplicação.
-     - Identifique e documente as vulnerabilidades encontradas, com uma descrição de cada uma e possíveis impactos e soluções.
-
-- **Entrega**: Relatório da Inspeção de Segurança
-  - **Formato**: Documento escrito (em formato PDF ou DOCX).
-  - **Conteúdo**:
-    - **Introdução**: Breve descrição das ferramentas e aplicações usadas.
-    - **Metodologia**: Descrição do processo de análise.
-    - **Resultados**: Detalhes das vulnerabilidades encontradas em cada aplicação, incluindo tipo de vulnerabilidade, descrição, severidade e recomendações de mitigação.
-    - **Conclusão**: Reflexões sobre a experiência de aprendizado e a utilidade do SonarQube na identificação de vulnerabilidades.
-  - **Anexos**: Capturas de tela do SonarQube mostrando as vulnerabilidades identificadas.
-
-#### Avaliação
-- O relatório será avaliado com base na profundidade da análise, clareza, precisão das informações apresentadas e reflexão crítica sobre o processo e os resultados.
+4. **Relatório Final**:
+   - **Formato**: PDF ou DOCX.
+   - **Conteúdo**:
+     - **Introdução**: Breve descrição da aplicação escolhida e das ferramentas utilizadas.
+     - **Resultados**: Liste as vulnerabilidades encontradas, com suas descrições e severidade.
+     - **Conclusão**: Comentários sobre as vulnerabilidades encontradas e a experiência com o SonarQube.
+   - **Anexos**: Capturas de tela do SonarQube mostrando os resultados da análise.
 
 ## Prática Guiada: 
 [Acesse a págia na prática guiada](../labs/lab-sonarqube.md)
