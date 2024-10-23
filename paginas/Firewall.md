@@ -95,6 +95,7 @@ A escolha de onde implementar um firewall depende da necessidade específica de 
 - [O que é um firewall? Definição e explicação](https://www.kaspersky.com.br/resource-center/definitions/firewall)
 - [O que é firewall de rede?](https://www.fortinet.com/br/resources/cyberglossary/firewall)
 - [Firewall de próxima geração](https://www.cloudflare.com/pt-br/learning/security/what-is-next-generation-firewall-ngfw/)
+- [O que é WAF? | O firewall de aplicativos web explicado](https://www.cloudflare.com/pt-br/learning/ddos/glossary/web-application-firewall-waf/#:~:text=O%20WAF%20%C3%A9%20uma%20defesa,contra%20diversos%20vetores%20de%20ataque.)
 - [What Is Deep Packet Inspection (DPI)?](https://www.fortinet.com/resources/cyberglossary/dpi-deep-packet-inspection)
 
 ## Atividade
